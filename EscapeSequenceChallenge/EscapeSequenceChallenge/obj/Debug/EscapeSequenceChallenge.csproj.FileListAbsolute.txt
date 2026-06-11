@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\EscapeSequenceChallenge\EscapeSequenceChallenge\bin\Debug\EscapeSequenceChallenge.exe.config
+C:\Users\Admin\source\repos\EscapeSequenceChallenge\EscapeSequenceChallenge\bin\Debug\EscapeSequenceChallenge.exe
+C:\Users\Admin\source\repos\EscapeSequenceChallenge\EscapeSequenceChallenge\bin\Debug\EscapeSequenceChallenge.pdb
+C:\Users\Admin\source\repos\EscapeSequenceChallenge\EscapeSequenceChallenge\obj\Debug\EscapeSequenceChallenge.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\EscapeSequenceChallenge\EscapeSequenceChallenge\obj\Debug\EscapeSequenceChallenge.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\EscapeSequenceChallenge\EscapeSequenceChallenge\obj\Debug\EscapeSequenceChallenge.exe
+C:\Users\Admin\source\repos\EscapeSequenceChallenge\EscapeSequenceChallenge\obj\Debug\EscapeSequenceChallenge.pdb
