@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EscapeSequenceChallenge")]
+[assembly: AssemblyTitle("Math_and_Comparison_Operators_Assignment")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EscapeSequenceChallenge")]
+[assembly: AssemblyProduct("Math_and_Comparison_Operators_Assignment")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("44da59bd-fda9-403e-a114-0be8de33123c")]
+[assembly: Guid("4033f09a-5a9a-4c10-a450-8a679e3c94d8")]
 
 // Version information for an assembly consists of the following four values:
 //
