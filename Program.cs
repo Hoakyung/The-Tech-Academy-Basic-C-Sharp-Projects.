@@ -1,57 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO.Pipes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Math_and_Comparison_Operators_Assignment
+namespace Boolean_Logic_Assignment
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            // This program compares the annual salaries of two individuals based on their hourly rates and hours worked per week.
-            Console.WriteLine("Anonymous Income Comparison Program");
-
-            // Get input for Person 1
-            string name1 = "Person 1";
-            Console.WriteLine("Hourly Rate of " + name1 + ":");
-            int hourlyRate1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Hourly work per week of " + name1 + ":");
-            int hoursWorkedPerWeek1 = Convert.ToInt32(Console.ReadLine());
-
-            // Get input for Person 2
-            string name2 = "Person 2";
-            Console.WriteLine("Hourly Rate of " + name2 + ":");
-            int hourlyRate2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Hourly work per week of " + name2 + ":");
-            int hoursWorkedPerWeek2 = Convert.ToInt32(Console.ReadLine());
-
-            // Calculate and display annual salaries
-            Console.WriteLine("Annual salary of " + name1 + ":");
-            decimal annualSalary1 = hourlyRate1 * hoursWorkedPerWeek1 * 52;
-            Console.WriteLine(annualSalary1);
-
-            // Calculate and display annual salaries for Person 2
-            Console.WriteLine("Annual salary of " + name2 + ":");
-            decimal annualSalary2 = hourlyRate2 * hoursWorkedPerWeek2 * 52;
-            Console.WriteLine(annualSalary2);
-
-            // Compare the annual salaries and display the result
-            Console.WriteLine(name1 + " makes more money than " + name2);
-            bool trueOrFalse = annualSalary1 > annualSalary2;
-            Console.WriteLine(trueOrFalse);
-            
-
-
-
-
-
-
-
-
+            //Write questions to the user to determine if they qualify for car insurance.
+            Console.WriteLine("What is your age?");
+            // Convert the user input to an integer
+            int age = Convert.ToInt32(Console.ReadLine());
+            //Ask the user if they have ever had a DUI and convert the response to a boolean value
+            Console.WriteLine("Have you ever had a DUI? (yes or no)");
+            // Convert the user input to a boolean value
+            string duiResponse = Console.ReadLine().ToLower();
+            // Check if the response is "yes" or "no"
+            bool hasDUI = Console.ReadLine().ToLower() == "yes";
+            // Ask the user how many speeding tickets they have and convert the response to an integer
+            Console.WriteLine("How many speeding tickets do you have?");
+            // Convert the user input to an integer
+            int speedingTickets = Convert.ToInt32(Console.ReadLine());
+            // Determine if the user qualifies for car insurance based on the criteria
+            Console.WriteLine("Qualified for insurance? " + (age > 15 && !hasDUI && speedingTickets <= 3));
+            // If the user qualifies, print "qualified" to the console
+            Console.WriteLine("qualified");
         }
     }
-
 }
