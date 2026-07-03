@@ -41,31 +41,13 @@ namespace Branching_Assignment_Submission
             if  (totalDimensions > 50)
             {
                 Console.WriteLine("Package too big to be shipped via Package Express.");
+                return;
             }
 
             // If the total dimensions are within the limit, calculate the shipping quote
             else
             {
                 int quote = (widthInput * heightInput * lengthInput * weightInput) / 100;
-                Console.WriteLine("Your estimated total for shipping this package is: $" + quote);
-                Console.WriteLine("Thank you!");
-            }
-            // Additional check for weight limit after dimensions input
-            if (weightInput > weightLimit)
-            {
-                Console.WriteLine("Package too heavy to be shipped via Package Express.Have a good day.");
-            }
-            // Recalculate total dimensions for the final check
-            totalDimensions = widthInput * heightInput * lengthInput;
-            // Final check for total dimensions
-            if (totalDimensions > 50)
-            {
-                Console.WriteLine("Package too big to be shipped via Package Express.");
-            }
-            // Final calculation of shipping quote if all conditions are met
-            else if (totalDimensions <= 50)
-            {
-                int quote = (weightInput * widthInput * heightInput * lengthInput) / 100;
                 Console.WriteLine("Your estimated total for shipping this package is: $" + quote);
                 Console.WriteLine("Thank you!");
             }
