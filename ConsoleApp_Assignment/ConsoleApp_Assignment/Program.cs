@@ -10,12 +10,49 @@ namespace ConsoleApp_Assignment
     {
         static void Main(string[] args)
         {
-            Console.Write("Guess my age?");
+        //    //A boolean comparison using a while statement
+        //    Console.Write("Guess my age?");
+        //    int age = Convert.ToInt32(Console.ReadLine());
+        //    bool isGuessed = age == 16;
+            
+        //         //A switch statement to check the value of age
+        //        switch (age)
+        //        {
+        //            case 16:
+        //                Console.WriteLine("You guessed it right!");
+        //                isGuessed = true;
+        //                break;
+        //            case 10:
+        //                Console.WriteLine("Too low! Try again.");
+        //                age = Convert.ToInt32(Console.ReadLine());
+        //                break;
+        //            case 40:
+        //                Console.WriteLine("Too high! Try again.");
+        //                age = Convert.ToInt32(Console.ReadLine());
+        //                break;
+        //            //A default case to handle any other values of age
+        //            default:
+        //                Console.Write("You are wrong! Try again.");
+        //                Console.Write("Guess my age?");
+        //                age = Convert.ToInt32(Console.ReadLine());
+        //                break;
+
+        //        }
+
+        //    //A while statement to repeat the guessing game until the correct age is guessed
+        //    while (!isGuessed);
+
+        //    Console.Read();
+        //}
+
+        //A boolean comparison using a while statement
+        Console.Write("Guess my age?");
             int age = Convert.ToInt32(Console.ReadLine());
             bool isGuessed = age == 16;
-
+            //A boolean comparison using a do while statement
             do
             {
+                //A switch statement to check the value of age
                 switch (age)
                 {
                     case 16:
@@ -30,6 +67,7 @@ namespace ConsoleApp_Assignment
                         Console.WriteLine("Too high! Try again.");
                         age = Convert.ToInt32(Console.ReadLine());
                         break;
+                    //A default case to handle any other values of age
                     default:
                         Console.Write("You are wrong! Try again.");
                         Console.Write("Guess my age?");
@@ -38,7 +76,7 @@ namespace ConsoleApp_Assignment
 
                 }
             }
-
+            //A do while statement to repeat the guessing game until the correct age is guessed
             while (!isGuessed);
 
             Console.Read();
